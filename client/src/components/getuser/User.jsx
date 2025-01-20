@@ -41,8 +41,8 @@ const User = () => {
                         <td>{user.fname} {user.lname}</td>
                         <td>{user.email}</td>
                         <td className='actionButtons'>
-                        <Link to={`/edit/` + user._id}><i className="fa-solid fa-pen-to-square"></i></Link>
-                            <button onClick={()=>deleteUser(user._id)}> <i className="fa-solid fa-trash"></i></button>
+                        <Link to={`/edit/` + user._id}><i className="fa-solid fa-pen-to-square " style={{color:'white'}}></i></Link>
+                            <button onClick={()=>deleteUser(user._id)}> <i className="fa-solid fa-trash" style={{color:'white'}}></i></button>
                             
                         </td>
                     </tr>
