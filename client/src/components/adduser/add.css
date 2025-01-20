@@ -1,0 +1,48 @@
+.addUser{
+    width: 25%;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0,0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.addUser h3{
+    margin-top: 10px;
+}
+.addUserForm {
+    margin-top: 20px;
+}
+.addUserForm .inputGroup{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* gap: 5px; */
+}
+.addUserForm .inputGroup label{
+    margin-bottom: 5px;
+}
+.addUserForm .inputGroup input{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+
+}
+.addUserForm .inputGroup button{
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    background-color: deepskyblue;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 10px;
+    box-shadow: 2px 2px 8px rgba(0,0, 0, 0.065);
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 10px;
+   transition: 2s linear;
+}
+.addUserForm .inputGroup button:hover{
+    background-color: aqua;
+   transform: translate(20px);
+}
